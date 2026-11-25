@@ -65,6 +65,7 @@ class Settings:
     cookie_secure: bool = True
     cookie_samesite: str = "strict"
     email_mode: str = "smtp"
+    dev_otp_bypass: bool = False
     # Hackathon-only: when true, OTP code "000000" bypasses verification.
     # Never enable outside demos.
     dev_otp_bypass: bool = False

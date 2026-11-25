@@ -5,4 +5,4 @@ import { mockService } from './mock.js';
 // Pages import { api } from here and never know which adapter is behind it.
 export const api = API_MODE === 'mock' ? mockService : liveService;
 export { API_MODE };
-export { ApiError, safeMessage } from './errors.js';
+export { ApiError, safeMessage, displayError } from './errors.js';

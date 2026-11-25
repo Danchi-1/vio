@@ -33,3 +33,4 @@ const SAFE_TEXT = {
 };
 
 export const safeMessage = (err) => SAFE_TEXT[err?.kind] ?? SAFE_TEXT.unknown;
+export const displayError = (err) => err?.backendMessage || safeMessage(err);
