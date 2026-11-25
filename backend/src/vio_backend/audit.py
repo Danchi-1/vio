@@ -83,7 +83,7 @@ async def record_decision(
 
     query = """
         INSERT INTO decision_log (finding_id, stage, actor, decision, details, prev_hash, entry_hash)
-        VALUES (:finding_id, :stage, :actor, :decision, :details, :prev_hash, :entry_hash)
+        VALUES (:finding_id, :stage, :actor, :decision, CAST(:details AS jsonb), :prev_hash, :entry_hash)
         RETURNING id
     """
     result = await session.execute(

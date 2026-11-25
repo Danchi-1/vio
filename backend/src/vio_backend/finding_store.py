@@ -42,7 +42,7 @@ async def list_confirmable_findings(
           ON r.course_id = f.course_id
          AND r.student_id = :student_id
          AND r.academic_session = :academic_session
-        WHERE f.status = 'collecting'
+        WHERE f.status IN ('collecting', 'held')
           AND NOT EXISTS (
               SELECT 1 FROM reports rep
               WHERE rep.finding_id = f.id AND rep.reporter_id = :student_id
@@ -129,9 +129,21 @@ async def get_finding_for_student(
         data["is_registered"]
         and not data["is_reporter"]
         and not data["is_confirmer"]
-        and data["status"] == "collecting"
+        and data["status"] in ("collecting", "held")
     )
     return data
+
+
+async def get_finding_state(session: AsyncSession, finding_id: str) -> tuple[str, int] | None:
+    """Returns (status, clearance_tier) for a finding."""
+    result = await session.execute(
+        text("SELECT status, clearance_tier FROM findings WHERE id = :finding_id"),
+        {"finding_id": finding_id},
+    )
+    row = result.first()
+    if row is None:
+        return None
+    return str(row[0]), int(row[1])
 
 
 async def add_confirmation(
@@ -269,7 +281,7 @@ async def recompute_and_store_finding_score(
     # 4. Insert into finding_scores
     insert_score_query = """
         INSERT INTO finding_scores (finding_id, formula_version, score, supporters, breakdown, computed_at)
-        VALUES (:finding_id, :formula_version, :score, :supporters, :breakdown, now())
+        VALUES (:finding_id, :formula_version, :score, :supporters, CAST(:breakdown AS jsonb), now())
     """
     await session.execute(
         text(insert_score_query),

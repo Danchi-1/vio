@@ -137,7 +137,7 @@ async def run_safety_eval(
         text(
             """
             INSERT INTO eval_runs (source, model_id, precision_score, recall_score, per_label, passed, ran_at)
-            VALUES (:source::eval_source, :model_id, :accuracy, :accuracy, :per_label, :passed, now())
+            VALUES (:source::eval_source, :model_id, :accuracy, :accuracy, CAST(:per_label AS jsonb), :passed, now())
             """
         ),
         {

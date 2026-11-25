@@ -174,8 +174,8 @@ async def verify_email_challenge(
         key=SESSION_COOKIE_NAME,
         value=token,
         httponly=True,
-        secure=True,
-        samesite="strict",
+        secure=settings.cookie_secure,
+        samesite=settings.cookie_samesite,
         expires=int(expires_at.timestamp()),
         path="/",
     )

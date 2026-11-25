@@ -48,6 +48,13 @@ class SmtpEmailSender:
             server.send_message(message)
 
 
+class ConsoleEmailSender:
+    """Development/hackathon-only opt-in sender that logs OTP emails to stdout."""
+
+    async def send(self, *, to_address: str, subject: str, body: str) -> None:
+        print(f"[VIO EMAIL][{to_address}] {subject}: {body}", flush=True)
+
+
 class NullEmailSender:
     """Used when SMTP is not configured. Raises instead of silently
     pretending to send, consistent with the project's fail-closed principle."""
@@ -65,4 +72,6 @@ def build_email_sender(settings) -> EmailSender:
             password=settings.smtp_password,
             from_address=settings.smtp_from_address,
         )
+    if getattr(settings, "email_mode", "smtp") == "console":
+        return ConsoleEmailSender()
     return NullEmailSender()

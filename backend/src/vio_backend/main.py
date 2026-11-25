@@ -8,7 +8,7 @@ from sqlalchemy import text
 from vio_backend.config import Settings
 from vio_backend.database import make_engine, make_session_factory
 from vio_backend.errors import register_error_handlers
-from vio_backend.routers import auth, catalogue, dashboard, findings, reports, student
+from vio_backend.routers import auth, authority, catalogue, dashboard, findings, lecturer, reports, student
 
 
 @asynccontextmanager
@@ -48,6 +48,8 @@ app.include_router(auth.router)
 app.include_router(student.router)
 app.include_router(reports.router)
 app.include_router(findings.router)
+app.include_router(lecturer.router)
+app.include_router(authority.router)
 app.include_router(dashboard.router)
 
 

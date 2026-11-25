@@ -1,10 +1,26 @@
 from dataclasses import dataclass
 import os
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+_BACKEND_DIR = Path(__file__).resolve().parents[2]
+_REPO_ROOT = _BACKEND_DIR.parent
+for _env_path in (_REPO_ROOT / ".env.local", _REPO_ROOT / ".env", _BACKEND_DIR / ".env.local", _BACKEND_DIR / ".env"):
+    if _env_path.exists():
+        load_dotenv(_env_path, override=False)
 
 
 def _int_env(name: str, default: int) -> int:
     value = os.getenv(name)
     return int(value) if value else default
+
+
+def _bool_env(name: str, default: bool) -> bool:
+    value = os.getenv(name)
+    if value is None or not value.strip():
+        return default
+    return value.strip().lower() in ("1", "true", "yes", "on")
 
 
 @dataclass(frozen=True)
@@ -46,6 +62,9 @@ class Settings:
     groq_summary_model: str = "openai/gpt-oss-20b"
     panel_min_confidence: float = 0.80
     hold_ttl_days: int = 14
+    cookie_secure: bool = True
+    cookie_samesite: str = "strict"
+    email_mode: str = "smtp"
 
     @classmethod
     def from_environment(cls) -> "Settings":
@@ -78,4 +97,7 @@ class Settings:
             groq_summary_model=os.getenv("GROQ_SUMMARY_MODEL", "openai/gpt-oss-20b"),
             panel_min_confidence=float(os.getenv("PANEL_MIN_CONFIDENCE", "0.80")),
             hold_ttl_days=_int_env("HOLD_TTL_DAYS", 14),
+            cookie_secure=_bool_env("COOKIE_SECURE", True),
+            cookie_samesite=os.getenv("COOKIE_SAMESITE", "strict").strip().lower() or "strict",
+            email_mode=os.getenv("EMAIL_MODE", "smtp").strip().lower() or "smtp",
         )

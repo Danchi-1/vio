@@ -22,7 +22,7 @@ from typing import Any
 from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from vio_backend import audit, model_panel
+from vio_backend import audit, delivery_store, model_panel
 from vio_backend.config import Settings
 from vio_backend.model_panel import PanelUnavailable, Vote
 
@@ -157,7 +157,7 @@ async def adjudicate_finding(
             text(
                 """
                 INSERT INTO panel_votes (subject_type, subject_id, round, role, model_id, verdict, confidence, reasons)
-                VALUES ('finding', :subject_id, :round, :role::panel_role, :model_id, :verdict::vote_verdict, :confidence, :reasons)
+                VALUES ('finding', :subject_id, :round, :role::panel_role, :model_id, :verdict::vote_verdict, :confidence, CAST(:reasons AS jsonb))
                 ON CONFLICT (subject_type, subject_id, round, role, model_id)
                 DO UPDATE SET verdict = EXCLUDED.verdict, confidence = EXCLUDED.confidence, reasons = EXCLUDED.reasons
                 """
@@ -263,3 +263,70 @@ async def adjudicate_finding(
         votes=votes,
         details=details,
     )
+
+
+async def evaluate_and_adjudicate(
+    session: AsyncSession,
+    finding_id: str,
+    settings: Settings,
+    *,
+    clearance_tier: int,
+    previous_status: str,
+    previous_tier: int,
+) -> str:
+    """Triggers the 3-model gate when a finding hits a clearance tier or is held.
+
+    Promotes cleared findings to 'published' when the publish breaker is closed.
+    Fails closed to 'held' if the panel is unavailable or its breaker is open.
+    """
+    if clearance_tier < 1:
+        return previous_status
+    if previous_status not in ("collecting", "held") and clearance_tier <= previous_tier:
+        return previous_status
+
+    try:
+        decision = await adjudicate_finding(session, finding_id, settings)
+    except (PanelUnavailable, CircuitBreakerOpen) as exc:
+        held_until = datetime.now(UTC) + timedelta(days=settings.hold_ttl_days)
+        await session.execute(
+            text(
+                """
+                UPDATE findings
+                SET status = 'held'::finding_status,
+                    held_until = :held_until
+                WHERE id = :finding_id
+                """
+            ),
+            {"finding_id": finding_id, "held_until": held_until},
+        )
+        await audit.record_decision(
+            session,
+            finding_id=finding_id,
+            stage="gate",
+            actor="gate_v1",
+            decision="held_fail_closed",
+            details={"reason": str(exc), "held_until": held_until.isoformat()},
+        )
+        return "held"
+
+    if decision.status == "cleared":
+        if clearance_tier >= 2 and not await is_circuit_breaker_open(session, "private_delivery"):
+            await delivery_store.queue_delivery_for_step(
+                session, finding_id=finding_id, step_order=1
+            )
+        if not await is_circuit_breaker_open(session, "publish"):
+            await session.execute(
+                text("UPDATE findings SET status = 'published'::finding_status WHERE id = :finding_id"),
+                {"finding_id": finding_id},
+            )
+            await audit.record_decision(
+                session,
+                finding_id=finding_id,
+                stage="publish",
+                actor="gate_v1",
+                decision="published",
+                details={"clearance_tier": clearance_tier},
+            )
+            return "published"
+
+    return decision.status

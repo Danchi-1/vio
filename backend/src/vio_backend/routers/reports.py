@@ -17,7 +17,7 @@ from pydantic import BaseModel, Field
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from vio_backend import finding_store, model_panel, report_store, student_auth
+from vio_backend import finding_store, gate, model_panel, report_store, student_auth
 from vio_backend.database import session_dependency
 from vio_backend.errors import ApiError
 from vio_backend.report_rules import (
@@ -272,13 +272,24 @@ async def submit_report(
         verdict="pass",
         reasons={"extraction": extraction.raw},
     )
-    await finding_store.recompute_and_store_finding_score(session, finding_id=finding_id)
+    prev_state = await finding_store.get_finding_state(session, finding_id)
+    prev_status, prev_tier = prev_state if prev_state is not None else ("collecting", 0)
+    score_res = await finding_store.recompute_and_store_finding_score(session, finding_id=finding_id)
+    finding_status = await gate.evaluate_and_adjudicate(
+        session,
+        finding_id,
+        settings,
+        clearance_tier=score_res.clearance_tier,
+        previous_status=prev_status,
+        previous_tier=prev_tier,
+    )
     await session.commit()
 
     return {
         "data": {
             "tracking_code": tracking_code,
-            "status": "collecting",
+            "status": finding_status,
+            "clearance_tier": score_res.clearance_tier,
             "message": "Your report was received. It has not been established as a finding.",
             "timeline": [
                 {
