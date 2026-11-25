@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-507-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-507-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:32.094510+00:00",
+  "page_title": "MCE 507 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 507 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-507-course-synopsis/",
+      "course_code": "MCE 507",
+      "course_number": "507",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Machine Design II",
+      "title_as_written": "Machine Design II",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Belts, bolt loading, brakes, clutches and couplings, gears and gear drives, springs, ropes, chain drives. Hoist. Welding design. Surface finch. Friction and wear. Bearings and lubrication. Pressure cylinders. Vibration consideration in designs. Design project.",
+      "heading_text": "MCE 507",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

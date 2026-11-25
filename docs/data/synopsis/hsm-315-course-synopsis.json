@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/hsm-315-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/hsm-315-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:32.422264+00:00",
+  "page_title": "HSM 315 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "HSM",
+  "department_acronym": "HSM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "HSM",
+      "department_acronym": "HSM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "HSM 315 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/hsm-315-course-synopsis/",
+      "course_code": "HSM 315",
+      "course_number": "315",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Home Management Practicum",
+      "title_as_written": "Home Management Practicum",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "As part of the application of management principles and processes, a period of 4-6 weeks in a management house is required. During this period, students shall analyse and evaluate management techniques at different family life-cycle stages and socio-economic levels.",
+      "heading_text": "HSM 315",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

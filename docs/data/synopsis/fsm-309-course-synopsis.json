@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/fsm-309-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/fsm-309-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:54.399639+00:00",
+  "page_title": "FSM 309 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "FSM",
+  "department_acronym": "FSM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "FSM",
+      "department_acronym": "FSM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "FSM 309 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/fsm-309-course-synopsis/",
+      "course_code": "FSM 309",
+      "course_number": "309",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Reception and Accommodation Techniques",
+      "title_as_written": "Reception and Accommodation Techniques",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "This course affords the students the knowledge of front office procedures and their practical application. It also involves basic procedures in housekeeping and maintenance of appliances in hotel & catering industry.",
+      "heading_text": "FSM 309",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

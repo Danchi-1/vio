@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/ann-501-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/ann-501-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:26.059680+00:00",
+  "page_title": "ANN 501 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ANN",
+  "department_acronym": "ANN",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ANP",
+      "department_acronym": "ANP",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ANN 501 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/ann-501-course-synopsis/",
+      "course_code": "ANP 501",
+      "course_number": "501",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Physiology of Lactation",
+      "title_as_written": "Physiology of Lactation",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Mammary gland anatomy- Meaning of mammary gland, Exterior anatomy: udder, teat, supernumerary teats, external meatus. Interior anatomy: Connective tissues such as skin and ligaments, secretory tissues such as alveoli, other interior components such as milk transport system involving duct system, milk storage system such as gland cistern teat cistern. Comparative mammary gland anatomy of Monotremes such as duck-billed platypus and porcupine, Marsupials such as Kangaroo (Tammar wallaby) and eutherian mammals such as cattle, pigs, sheep and goats. Location and comparison of mammary gland of various animal species including man. Mammary tissue histology and cell biology: mammary tissue organization, mammary tissue lobules, the mammary alveolus, the mammary cell, pathways of precursor uptake in mammary cells (protein, lactose, milk fat, vitamins and minerals formation). Mammary gland growth and development: Meaning of mammogenesis, development during the foetal period, development during the pre pubertal period, development during the post pubertal period, development during pregnancy, development during lactation. Induction of lactation hormone treatment, lactaogenesis: meaning and principles of lactogenesis, mammary cytology and hormonal changes associated with lactogenesis, progesterone involvement in lactogenesis. The neonate and colostrums: The neonate, intestinal absorption of immunoglobulin, colostrums formation, immunoglobulin transport in the mammary gland, intestinal protective factors in colostrums and milk, bioactive factors in colostrums and milk. Galactopoeisis: meaning of galactopoeisis, roles of hormones and milk removal in galactapoeisis. Milk ejection: nursing frequency, oxytocin, milk ejection reflex, oxytocin surge, other roles of oxytocin, other mechanisms of milk ejection, involvement of autonomic nervous system and stress in milk ejection, residual milk.",
+      "heading_text": "ANP 501",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

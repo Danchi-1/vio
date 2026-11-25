@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-510-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-510-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:30.796010+00:00",
+  "page_title": "MCE 510 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 510 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-510-course-synopsis/",
+      "course_code": "MCE 510",
+      "course_number": "510",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Industrial Engineering",
+      "title_as_written": "Industrial Engineering",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Introduction, system engineering applied to the design of industrial business system and organization. Industrial organization. Operation subsystem design, production planning and control, purchasing. Motion and time study. Factory planning and materials handling. Industrial standardization. Tool and manufacturing engineering. Industrial statistics. Inspection and quality control. The attitudes of organized labour towards industrial engineering methods.",
+      "heading_text": "MCE 510",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-203-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-203-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:41.699966+00:00",
+  "page_title": "MCE 203 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 203 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-203-course-synopsis/",
+      "course_code": "MCE 203",
+      "course_number": "203",
+      "level": 200,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Engineering Materials",
+      "title_as_written": "Engineering Materials",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Atomic and crystal structure. Metallic states. Defect in crystals, conductors, semi-conductors, insulators and super-conductors. The relationship between structure and properties. Alloy theory-application to industrial alloys – steel in particular. Simple phase diagram of alloys. Engineering properties – thermal control, hot and cold working, heat treatment, etc. Creep, fatigue and fracture. Corrosion and corrosion control. Non-metallic materials – glass, rubber, concrete, plastics, wood and ceramics. Elastic and plastic deformations. Materials for cryogenic, corrosive media and nuclear Applications.",
+      "heading_text": "MCE 203",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

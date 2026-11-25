@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/fsm-303-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/fsm-303-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:52.776462+00:00",
+  "page_title": "FSM 303 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "FSM",
+  "department_acronym": "FSM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "FSM",
+      "department_acronym": "FSM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "FSM 303 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/fsm-303-course-synopsis/",
+      "course_code": "FSM 303",
+      "course_number": "303",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Principles of Tourism Development",
+      "title_as_written": "Principles of Tourism Development",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "This course exposes the students to the scope of tourism industry. Requirements of a tourist location. Role of transportation in tourism, tourist objects in Nigeria, exportation, role of marketing in tourism. Destination planning and development; study of group and wholesale tour operations which includes design, supplier negotiations and pricing aspects of tours. Uses of Foodservice in tourism.",
+      "heading_text": "FSM 303",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

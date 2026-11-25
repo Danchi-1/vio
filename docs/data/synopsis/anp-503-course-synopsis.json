@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/anp-503-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/anp-503-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:18.821441+00:00",
+  "page_title": "ANP 503 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ANP",
+  "department_acronym": "ANP",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ANP",
+      "department_acronym": "ANP",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ANP 503 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/anp-503-course-synopsis/",
+      "course_code": "ANP 503",
+      "course_number": "503",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Environmental Physiology",
+      "title_as_written": "Environmental Physiology",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Effects of climate on livestock production, Acclimatization and adaptation, Physiological basis of adaptation, Heat stress, Physiology of thermoregulation: Heat balance, Heat gain, Heat loss (Sensible heat loss, Insensible heat loss- Panting and Sweating), Physiological, behavioural and hormonal responses to heat stress, Modification of the micro-climate to enhance animal productivity, Management of exotic breeds in tropical environment.",
+      "heading_text": "ANP 503",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

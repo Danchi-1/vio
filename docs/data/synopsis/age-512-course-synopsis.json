@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/age-512-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/age-512-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:36.700897+00:00",
+  "page_title": "AGE 512 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "AGE",
+  "department_acronym": "AGE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "AGE",
+      "department_acronym": "AGE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "AGE 512 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/age-512-course-synopsis/",
+      "course_code": "AGE 512",
+      "course_number": "512",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Food and Crop Storage Technology",
+      "title_as_written": "Food and Crop Storage Technology",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Basic principles of crop storage and preservation. Types of storage structures – traditional and improved systems. Pest and insect infestation in stored products and storage structures. Storage structures for grains, semi-perishable crops (e.g potatoes, yams, etc) and perishable (e.g fruits and vegetables). Strategic food reserves.",
+      "heading_text": "AGE 512",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/fsm-204-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/fsm-204-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:59.709463+00:00",
+  "page_title": "FSM 204 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "FSM",
+  "department_acronym": "FSM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "FSM",
+      "department_acronym": "FSM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "FSM 204 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/fsm-204-course-synopsis/",
+      "course_code": "FSM 204",
+      "course_number": "204",
+      "level": 200,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Spices Pastries & Confectionaries",
+      "title_as_written": "Spices, Pastries & Confectionaries",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Identification and classification of spices and condiments. Indigenous and non indigenous spices and condiments. Role of spices in food industry. Cooking starch, pasties, butter, cake mixtures and decoration.",
+      "heading_text": "FSM 204",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

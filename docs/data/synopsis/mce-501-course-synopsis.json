@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-501-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-501-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:35.037602+00:00",
+  "page_title": "MCE 501 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 501 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-501-course-synopsis/",
+      "course_code": "MCE 501",
+      "course_number": "501",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Production Engineering I",
+      "title_as_written": "Production Engineering I",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "The role of production engineering in the mechanical engineering profession. Mechanics and kinematics of machine tools. Tool geometry and chip formation. Mechanics of cutting with single-point tools. Merchant’s analysis. Other theories. Economics of cutting. Variables affecting metal removal rate, economic cutting speeds, cutting tool materials , cutting fluids. Principles of metal cutting with multi-point tools: milling, grinding, drilling, boring, etc. Time and cost estimates.",
+      "heading_text": "MCE 501",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

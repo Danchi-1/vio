@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/wma-415-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/wma-415-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:51.063284+00:00",
+  "page_title": "WMA 415 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "WMA",
+  "department_acronym": "WMA",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "WMA",
+      "department_acronym": "WMA",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "WMA 415 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/wma-415-course-synopsis/",
+      "course_code": "WMA 415",
+      "course_number": "415",
+      "level": 400,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Weather Analysis and Prediction",
+      "title_as_written": "Weather Analysis and Prediction",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Principles of objective analysis and numerical weather prediction; observational statistic, prediction of individual weather elements. Short range forecasting by various methods. Mesoscale analysis, convection systems, local winds and other weather phenomena. Barotropic and baroclinic forecast; surface analysis, analysis of constant pressure surfaces and other surfaces; cross-section analysis, numerical computation of map factors and of geostropic winds; static stability computation; satellite data and other modern techniques. Formulation of basic equations of motion: vector from Cartesian coordinate, continuity equation hydrodynamic equation, equation of state. General circulation of the atmosphere: vorticity, divergence and deformation, static stability, circular vortex, and dynamics of mesoscace phenomena, atmospheric turbulence, and waves small-scale turbulence convection treatment of Barotropic and baroclinic waves.",
+      "heading_text": "WMA 415",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

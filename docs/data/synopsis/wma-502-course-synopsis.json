@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/wma-502-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/wma-502-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:45.657283+00:00",
+  "page_title": "WMA 502 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "WMA",
+  "department_acronym": "WMA",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "WMA",
+      "department_acronym": "WMA",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "WMA 502 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/wma-502-course-synopsis/",
+      "course_code": "WMA 502",
+      "course_number": "502",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Hydrological Forecasting II",
+      "title_as_written": "HYDROLOGICAL FORECASTING II",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Forecasting Methods. Seasonal and annual flow forecasts, stages and flows, flood forecasts, formulation, evaluation and verification of hydrological forecasts, formulation of hydrological forecasts, evaluation of forecasting methods, relation between meteorological and hydrological forecasting, cost benefit analysis for hydrological forecasting, forecasting , forecast meteorology in relation to dought, flooding, blizzards, erosion and prevention of forecast fires.",
+      "heading_text": "WMA 502",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

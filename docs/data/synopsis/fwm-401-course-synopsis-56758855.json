@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/fwm-401-course-synopsis-56758855/",
+  "final_url": "https://funaab.edu.ng/fwm-401-course-synopsis-56758855/",
+  "fetched_at": "2026-11-15T23:39:01.916796+00:00",
+  "page_title": "FWM 401 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "FWM",
+  "department_acronym": "FWM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "FWM",
+      "department_acronym": "FWM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "FWM 401 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/fwm-401-course-synopsis-56758855/",
+      "course_code": "FWM 401",
+      "course_number": "401",
+      "level": 400,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Forest Inventory and Management Plan",
+      "title_as_written": "Forest Inventory and Management Plan",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Summary; the importance of effective sampling techniques in forest management; introduction; meaning and scope of forest inventory; sampling in forest inventory and its importance; relative emphasis of the elements of a forest inventory; the sampling design; the simple random sampling; the stratified random sampling; multistage sampling design; multi-phase sampling design; cluster sampling; selective sampling; systematic sampling designs; statistical tools in the processing of data collected in a sampling exercise (variance, standard deviation, standard errors and confidence limits, coefficient of variation, covariance, correlation coefficient, regression); the application of effective sampling techniques in forest management in Nigeria; early enumerations of the Nigerian high forest reserves; recipes for effective sampling techniques for forest management; conclusion.",
+      "heading_text": "FWM 401",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

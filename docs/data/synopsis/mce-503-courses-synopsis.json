@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-503-courses-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-503-courses-synopsis/",
+  "fetched_at": "2026-11-15T23:38:34.296051+00:00",
+  "page_title": "MCE 503 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 503 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-503-courses-synopsis/",
+      "course_code": "MCE 503",
+      "course_number": "503",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Refrigeration & Air-conditioning II",
+      "title_as_written": "Refrigeration & Air-Conditioning II",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Elements and design of refrigeration systems. Steady state and transient cooling loads calculations. Design, control and layouts of ventilation and air-conditioning systems. Noise reduction. Principles of application of automatic control elements. Principles of design of cold stores.",
+      "heading_text": "MCE 503",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/ntd-201-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/ntd-201-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:20.762036+00:00",
+  "page_title": "NTD 201 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "NTD",
+  "department_acronym": "NTD",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "NTD",
+      "department_acronym": "NTD",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "NTD 201 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/ntd-201-course-synopsis/",
+      "course_code": "NTD 201",
+      "course_number": "201",
+      "level": 200,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Food Commodities",
+      "title_as_written": "Food Commodities",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Food classification, Market surveys, Food selection and purchasing. Uses of foods. Foods and food tables. Cereals, starches and starchy foods, sugars, pulses, nut and seeds. Vegetables and fruit. Meat, fish, etc. infective agents in food. Natural food toxins.",
+      "heading_text": "NTD 201",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

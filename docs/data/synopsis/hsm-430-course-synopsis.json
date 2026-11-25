@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/hsm-430-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/hsm-430-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:24.574044+00:00",
+  "page_title": "HSM 430 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "HSM",
+  "department_acronym": "HSM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "HSM",
+      "department_acronym": "HSM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "HSM 430 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/hsm-430-course-synopsis/",
+      "course_code": "HSM 430",
+      "course_number": "430",
+      "level": 400,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Nigerian Cottage Industries",
+      "title_as_written": "Nigerian Cottage Industries",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Concept and principles of cottage industries. Case studies of the various types of cottage industries in Nigeria, their operations, problems and prospects. Government policies and laws on cottage industries in Nigeria. Review of cottage industries. (Particularly policies, laws, operations in selected other countries). Students registered for this course shall submit report of case studies/reviews done individually or group.",
+      "heading_text": "HSM 430",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

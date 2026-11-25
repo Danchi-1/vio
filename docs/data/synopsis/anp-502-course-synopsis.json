@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/anp-502-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/anp-502-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:24.790500+00:00",
+  "page_title": "ANP 502 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ANP",
+  "department_acronym": "ANP",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ANP",
+      "department_acronym": "ANP",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ANP 502 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/anp-502-course-synopsis/",
+      "course_code": "ANP 502",
+      "course_number": "502",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Reproductive Physiology",
+      "title_as_written": "Reproductive Physiology",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Introduction to animal reproduction, reproductive efficiency and profitable livestock production; Biological basis of sex. Sex differentiation. Intersex, homologues of the male and female reproductive system. Comparative anatomy of the male reproductive system. Comparative anatomy of the female reproductive system. Sexual development. Gametogenesis, spermatogenesis, sperm transport, sperm output, hormonal control of spermatogenesis; Oogenesis, ova physiology, follicular development, ovulation, hormonal control of oogenesis. Reproductive cycles. Pregnancy. Infertility in farm animals. Practical: Gross anatomy of male and female reproductive tracts, histology of the testis, ductus deferens, ampulla, epididymis, vesicular glands, histology of the ovary, oviduct, uterus and cervix. Gross anatomy of the gravid uterus. Oestrus detection in cattle, pigs, sheep and goats. Pregnancy diagnosis in sheep and goats by ballottement",
+      "heading_text": "ANP 502",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

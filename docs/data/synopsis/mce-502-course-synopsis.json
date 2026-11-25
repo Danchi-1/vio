@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-502-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-502-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:34.539341+00:00",
+  "page_title": "MCE 502 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 502 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-502-course-synopsis/",
+      "course_code": "MCE 502",
+      "course_number": "502",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Production Engineering II",
+      "title_as_written": "Production Engineering II",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Specification and standardization: Interchangeable manufacture, preferred sizes, limits and fits. Fundamentals of measurement: length, standards, sources of error, angular measurements; comparators, autocollimator, indirect measurements, straightness and flatness testing. Surface finish. Fundamentals of gauge design. Screws threads, specification, tolerancing, gauging and measurements. Statistical methods of process control. Principles of planning and tools design. Industrial health and safety. Ergonomics. Elements of cleaner production and applications in mechanical engineering.",
+      "heading_text": "MCE 502",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

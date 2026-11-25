@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/age-505-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/age-505-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:39.336852+00:00",
+  "page_title": "AGE 505 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "AGE",
+  "department_acronym": "AGE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "AGE",
+      "department_acronym": "AGE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "AGE 505 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/age-505-course-synopsis/",
+      "course_code": "AGE 505",
+      "course_number": "505",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Soil and Water Conservation Engineering",
+      "title_as_written": "Soil and Water Conservation Engineering",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Soil-water-plant relationship, and application in agricultural engineering projects. Principles of soil conservation. Classes, types and forms of soil erosion. Classification, processes, factors, analysis and measurements of water erosion and wind erosion. Erosion control: contouring, strip cropping, mulching and tillage practices – principles, designs, efficiency and limitations. Principles, classification, design, construction, operation, maintenance, efficiency and limitation of terraces. Vegetated water courses, selected mechanical conservation structures, windbreaks and shelter belts. Principles, significance and classification of irrigation and drainage.",
+      "heading_text": "AGE 505",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

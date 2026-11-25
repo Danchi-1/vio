@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-101-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-101-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:43.455916+00:00",
+  "page_title": "MCE 101 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 101 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-101-course-synopsis/",
+      "course_code": "MCE 101",
+      "course_number": "101",
+      "level": 100,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Introduction to Engineering Drawing",
+      "title_as_written": "Introduction to Engineering Drawing",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Lettering and line work, Angles, Triangles, Quadrilaterals, inscribing a circle in any regular polygon and inscribing any regular polygon in a circle, Conic sections: drawing the true shape of the section of the frustum of the cylinder. Development of simple engineering/fabricated objects such as: – frustum of cylinder and a pyramid. The ellipse: ellipse by the rectangular method, auxiliary circle method, trammel method and by foci method. Common internal and external tangent to two equal and unequal circles, internal and external arc of a given radii.",
+      "heading_text": "MCE 101",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

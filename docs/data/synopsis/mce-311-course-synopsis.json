@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-311-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-311-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:37.473667+00:00",
+  "page_title": "MCE 311 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 311 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-311-course-synopsis/",
+      "course_code": "MCE 311",
+      "course_number": "311",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Materials Science for Engineers",
+      "title_as_written": "Materials Science for Engineers",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Types of Engineering materials; Physical properties of materials; Electrical properties of materials; Mechanical properties of materials; Thermal properties of materials; Chemical properties of materials. Stability of materials in the service environment; Basic metallurgy; Non-metallic materials. Simple stress and strain; Bending and torsion; deflection of beams: Complex stress and strain.",
+      "heading_text": "MCE 311",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

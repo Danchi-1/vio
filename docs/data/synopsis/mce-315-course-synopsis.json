@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-315-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-315-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:35.884246+00:00",
+  "page_title": "MCE 315 Course synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 315 Course synopsis",
+      "source_url": "https://funaab.edu.ng/mce-315-course-synopsis/",
+      "course_code": "MCE 315",
+      "course_number": "315",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Theory of Elasticity",
+      "title_as_written": "Theory of Elasticity",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Application of Theory of Elasticity to Two- and Three-dimensional Problems in Engineering; Stress Concentration round holes; Discs, Wedges under point loading, etc. Experimental stress analysis, Strain gauging, Photo-elasticity and Holography. Approximate methods; Finite element method.",
+      "heading_text": "MCE 315",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

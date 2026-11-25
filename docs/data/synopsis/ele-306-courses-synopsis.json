@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/ele-306-courses-synopsis/",
+  "final_url": "https://funaab.edu.ng/ele-306-courses-synopsis/",
+  "fetched_at": "2026-11-15T23:40:13.367596+00:00",
+  "page_title": "ELE 306 Courses Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ELE",
+  "department_acronym": "ELE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ELE",
+      "department_acronym": "ELE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ELE 306 Courses Synopsis",
+      "source_url": "https://funaab.edu.ng/ele-306-courses-synopsis/",
+      "course_code": "ELE 306",
+      "course_number": "306",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Electrical Machines II",
+      "title_as_written": "Electrical Machines II",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Asynchronous (Induction) Machines Magnetic flux, distribution of induced emf, equivalent circuit, power balance, equivalent circuit referred to stator. Torque-slip characteristics for generating and motoring actions.The circle diagram. Methods of starting and speed control. Double cage induction motor. Single phase motors.",
+      "heading_text": "ELE 306",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

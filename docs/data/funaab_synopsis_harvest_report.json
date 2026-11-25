@@ -1,0 +1,2048 @@
+{
+  "generated_at": "2026-11-15T23:40:25.666769+00:00",
+  "include_course_pages": true,
+  "selected_sources": 204,
+  "total_courses": 1310,
+  "sources": [
+    {
+      "url": "https://funaab.edu.ng/accounting-course-synopsis/",
+      "title": "Accounting Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 0,
+      "warning": "no_courses_extracted",
+      "error": null,
+      "output": "docs/data/synopsis/accounting-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/college-of-natural-sciences-colnas-79832118/department-of-pure-and-applied-botany/course-synopsis/",
+      "title": "PAB COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 47,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/course-synopsis-of-mechatronic-engineering/",
+      "title": "COURSE SYNOPSIS OF MECHATRONIC ENGINEERING",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 18,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/course-synopsis-of-mechatronic-engineering.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/pure-applied-botany-course-synopsis/",
+      "title": "Pure & Applied Botany Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 47,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/pure-applied-botany-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-516-course-synopsis/",
+      "title": "MCE 516 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-516-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-511-course-synopsis/",
+      "title": "MCE 511 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-511-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-510-course-synopsis/",
+      "title": "MCE 510 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-510-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-509-course-synopsis/",
+      "title": "MCE 509 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-509-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-508-course-synopsis/",
+      "title": "MCE 508 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-508-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-507-course-synopsis/",
+      "title": "MCE 507 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-507-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-506-course-synopsis/",
+      "title": "MCE 506 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-506-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-505-course-synopsis/",
+      "title": "MCE 505 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-505-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-504-course-synopsis/",
+      "title": "MCE 504 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-504-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-503-courses-synopsis/",
+      "title": "MCE 503 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-503-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-502-course-synopsis/",
+      "title": "MCE 502 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-502-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-501-course-synopsis/",
+      "title": "MCE 501 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-501-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-407-course-synopsis/",
+      "title": "MCE 407 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-407-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-405-course-synopsis/",
+      "title": "MCE 405 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-405-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-315-course-synopsis/",
+      "title": "MCE 315 Course synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-315-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-313-course-synopsis/",
+      "title": "MCE 313 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-313-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-312-course-synopsis/",
+      "title": "MCE 312 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-312-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-311-course-synopsis/",
+      "title": "MCE 311 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-311-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-310-course-synopsis/",
+      "title": "MCE 310 Course synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-310-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-309-course-synopsis/",
+      "title": "MCE 309 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-309-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-308-course-synopsis/",
+      "title": "MCE 308 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-308-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-305-course-synopsis/",
+      "title": "MCE 305 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-305-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-304-course-synopsis/",
+      "title": "MCE 304 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-304-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-303-course-synopsis/",
+      "title": "MCE 303 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-303-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-301-course-synopsis/",
+      "title": "MCE 301 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-301-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-205course-synopsis/",
+      "title": "MCE 205 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-205course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-204-course-synopsis/",
+      "title": "MCE 204 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-204-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-203-course-synopsis/",
+      "title": "MCE 203 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-203-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-202-course-synopsis/",
+      "title": "MCE 202 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-202-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-201-course-synopsis/",
+      "title": "MCE 201 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-201-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-101-course-synopsis/",
+      "title": "MCE 101 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-101-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fis-314-course-synopsis/",
+      "title": "FIS 314 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fis-314-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aph-301-course-synopsis/",
+      "title": "APH 301 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aph-301-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aph-509-course-synopsis/",
+      "title": "APH 509 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aph-509-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/wma-507-course-synopsis/",
+      "title": "WMA 507 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/wma-507-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/wma-502-course-synopsis/",
+      "title": "WMA 502 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/wma-502-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/entrepreneurial-studies-course-synopsis/",
+      "title": "Entrepreneurial Studies Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 0,
+      "warning": "no_courses_extracted",
+      "error": null,
+      "output": "docs/data/synopsis/entrepreneurial-studies-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/wma-411-course-synopsis/",
+      "title": "WMA 411 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/wma-411-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aph-508-course-synopsis/",
+      "title": "APH 508 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aph-508-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aph-506-course-synopsis/",
+      "title": "APH 506 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aph-506-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aph-505-course-synopsis/",
+      "title": "APH 505 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aph-505-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aph-403-course-synopsis/",
+      "title": "APH 403 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aph-403-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aph-302-course-synopsis/",
+      "title": "APH 302 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aph-302-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aph-202-course-synopsis/",
+      "title": "APH 202 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aph-202-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/wma-316-course-synopsis/",
+      "title": "WMA 316 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/wma-316-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/wma-415-course-synopsis/",
+      "title": "WMA 415 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/wma-415-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/wma-407-course-synopsis/",
+      "title": "WMA 407 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/wma-407-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/wma-201-course-synopsis/",
+      "title": "WMA 201 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/wma-201-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fsm-311-course-synopsis/",
+      "title": "FSM 311 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fsm-311-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fsm-303-course-synopsis/",
+      "title": "FSM 303 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fsm-303-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fsm-309-course-synopsis/",
+      "title": "FSM 309 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fsm-309-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fsm-207-course-synopsis/",
+      "title": "FSM 207 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fsm-207-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/prm-505-course-synopsis/",
+      "title": "PRM 505 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/prm-505-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fsm-205-course-synopsis/",
+      "title": "FSM 205 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fsm-205-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/prm-504-course-synopsis/",
+      "title": "PRM 504 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/prm-504-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/prm-503-course-synopsis/",
+      "title": "PRM 503 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/prm-503-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/prm-502-course-synopsis/",
+      "title": "PRM 502 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/prm-502-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fsm-204-course-synopsis/",
+      "title": "FSM 204 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fsm-204-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/prm-501-course-synopsis/",
+      "title": "PRM 501 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/prm-501-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/prm-201-course-synopsis/",
+      "title": "PRM 201 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/prm-201-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fsm-202-course-synopsis/",
+      "title": "FSM 202 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fsm-202-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fwm-401-course-synopsis-56758855/",
+      "title": "FWM 401 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fwm-401-course-synopsis-56758855.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fwm-302-course-synopsis/",
+      "title": "FWM 302 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fwm-302-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/frm-501-course-synopsis/",
+      "title": "FRM 501 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/frm-501-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/frm-504-course-synopsis/",
+      "title": "FRM 504 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/frm-504-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fsm-203-course-synopsis/",
+      "title": "FSM 203 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fsm-203-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/anp-508-course-synopsis/",
+      "title": "ANP 508 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/anp-508-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/anp-506-course-synopsis/",
+      "title": "ANP 506 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/anp-506-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/anp-505-course-synopsis/",
+      "title": "ANP 505 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/anp-505-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/anp-504-course-synopsis/",
+      "title": "ANP 504 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/anp-504-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fwm-313-course-synopsis/",
+      "title": "FWM 313 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fwm-313-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fsm-201-course-synopsis/",
+      "title": "FSM 201 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fsm-201-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/frm-503-course-synopsis/",
+      "title": "FRM 503 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/frm-503-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-409-course-synopsis/",
+      "title": "NTD 409 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-409-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-408-course-synopsis/",
+      "title": "NTD 408 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-408-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-403-course-synopsis/",
+      "title": "NTD 403 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-403-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fwm-305-course-synopsis/",
+      "title": "FWM 305 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fwm-305-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-407-course-synopsis/",
+      "title": "NTD 407 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-407-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-406-course-synopsis/",
+      "title": "NTD 406 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-406-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-401-course-synopsis/",
+      "title": "NTD 401 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-401-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fwm-401-course-synopsis-90394488/",
+      "title": "FWM 401 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fwm-401-course-synopsis-90394488.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-313-course-synopsis/",
+      "title": "NTD 313 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-313-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-301-course-synopsis/",
+      "title": "NTD 301 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-301-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-205-course-synopsis/",
+      "title": "NTD 205 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-205-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-203-course-synopsis/",
+      "title": "NTD 203 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-203-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/anp-503-course-synopsis/",
+      "title": "ANP 503 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/anp-503-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-202-course-synopsis/",
+      "title": "NTD 202 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-202-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-201-course-synopsis/",
+      "title": "NTD 201 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-201-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ntd-103-course-synopsis/",
+      "title": "NTD 103 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ntd-103-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-412-course-synopsis/",
+      "title": "HSM 412 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-412-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-411-course-synopsis/",
+      "title": "HSM 411 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-411-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-409-course-synopsis/",
+      "title": "HSM 409 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-409-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-407-course-synopsis-78388269/",
+      "title": "HSM 407 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-407-course-synopsis-78388269.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-430-course-synopsis/",
+      "title": "HSM 430 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-430-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/anp-502-course-synopsis/",
+      "title": "ANP 502 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/anp-502-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-401-course-synopsis/",
+      "title": "HSM 401 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-401-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-329-course-synopsis/",
+      "title": "HSM 329 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-329-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ann-501-course-synopsis/",
+      "title": "ANN 501 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ann-501-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-327-course-synopsis/",
+      "title": "HSM 327 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-327-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-308-course-synopsis/",
+      "title": "CVE 308 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-308-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/anp-201-course-synopsis/",
+      "title": "ANP 201 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/anp-201-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-102-course-synopsis/",
+      "title": "CVE 102 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-102-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-323-course-synopsis/",
+      "title": "HSM 323 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-323-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-321-course-synopsis/",
+      "title": "HSM 321 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-321-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-315-course-synopsis/",
+      "title": "HSM 315 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-315-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-313-course-synopsis/",
+      "title": "HSM 313 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-313-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-311-course-synopsis/",
+      "title": "HSM 311 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-311-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/anp-102-course-synopsis/",
+      "title": "ANP 102 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/anp-102-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-407-course-synopsis/",
+      "title": "HSM 407 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-407-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-307-course-synopsis/",
+      "title": "HSM 307 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-307-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-305-course-synopsis/",
+      "title": "HSM 305 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-305-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/age-514-course-synopsis/",
+      "title": "AGE 514 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/age-514-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/age-512-course-synopsis/",
+      "title": "AGE 512 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/age-512-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/age-507-course-synopsis/",
+      "title": "AGE 507 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/age-507-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/age-506-course-synopsis/",
+      "title": "AGE 506 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/age-506-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-301-course-synopsis/",
+      "title": "HSM 301 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-301-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fwm-401-course-synopsis/",
+      "title": "FWM 401 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fwm-401-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/age-505-course-synopsis/",
+      "title": "AGE 505 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/age-505-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/frm-509-course-synopsis/",
+      "title": "FRM 509 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/frm-509-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-206-course-synopsis/",
+      "title": "HSM 206 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-206-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/age-504-course-synopsis/",
+      "title": "AGE 504 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/age-504-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-205-course-synopsis/",
+      "title": "HSM 205 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-205-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fwm-405-course-synopsis/",
+      "title": "FWM 405 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fwm-405-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-204-course-synopsis/",
+      "title": "HSM 204 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-204-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-203-course-synopsis/",
+      "title": "HSM 203 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-203-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fwm-301-course-synopsis/",
+      "title": "FWM 301 Course Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fwm-301-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/economics-course-synopsis/",
+      "title": "Economics Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 0,
+      "warning": "no_courses_extracted",
+      "error": null,
+      "output": "docs/data/synopsis/economics-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/business-enterprise-management-course-synopsis/",
+      "title": "Business Administration Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 0,
+      "warning": "no_courses_extracted",
+      "error": null,
+      "output": "docs/data/synopsis/business-enterprise-management-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/banking-and-finance-course-synopsis/",
+      "title": "Banking & Finance Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 0,
+      "warning": "no_courses_extracted",
+      "error": null,
+      "output": "docs/data/synopsis/banking-and-finance-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/agricultural-administration-course-sysnopsis/",
+      "title": "Agricultural Administration Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 62,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/agricultural-administration-course-sysnopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hospitality-and-tourism-course-synopsis/",
+      "title": "HOSPITALITY AND TOURISM COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 74,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hospitality-and-tourism-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/nud-course-synopsis-81421033/",
+      "title": "NUTRITION AND DIETETICS COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/nud-course-synopsis-81421033.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/veterinary-anatomy-course-synopsis/",
+      "title": "Veterinary Anatomy Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 0,
+      "warning": "no_courses_extracted",
+      "error": null,
+      "output": "docs/data/synopsis/veterinary-anatomy-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/vphr-course-synopsis/",
+      "title": "VETERINARY PUBLIC HEALTH COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 23,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/vphr-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/vms-course-synopsis/",
+      "title": "VETERINARY MEDICINE & SURGERY COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 26,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/vms-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/vmp-course-synopsis/",
+      "title": "VETERINARY MICROBIOLOGY & PARASITOLOGY COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 10,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/vmp-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/vp-course-synopsis/",
+      "title": "VETERINARY PATHOLOGY COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 8,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/vp-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/vpp-course-synopsis/",
+      "title": "VETERINARY PHYSIOLOGY & PHARMACOLOGY COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 8,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/vpp-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/soil-science-and-land-management-course-synopsis/",
+      "title": "SOIL SCIENCE AND LAND MANAGEMENT COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 15,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/soil-science-and-land-management-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/horticulture-course-synopsis/",
+      "title": "HORTICULTURE COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 2,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/horticulture-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ppcp-area-of-specialisation/",
+      "title": "PPCP COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 13,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ppcp-area-of-specialisation.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/plant-physiology-and-crop-production-course-synopsis/",
+      "title": "PLANT PHYSIOLOGY AND CROP PRODUCTION COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 13,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/plant-physiology-and-crop-production-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/plant-breeding-and-seed-technology-course-synopsis/",
+      "title": "PLANT BREEDING AND SEED TECHNOLOGY COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 8,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/plant-breeding-and-seed-technology-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/crop-protection-course-synopsis/",
+      "title": "CROP PROTECTION COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 9,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/crop-protection-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/phs-course-synopsis/",
+      "title": "PHS COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 46,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/phs-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/sts-course-synopsis/",
+      "title": "STS COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 31,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/sts-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mcb-course-synopsis/",
+      "title": "MCB COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 8,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mcb-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mts-course-synopsis/",
+      "title": "MTS COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 40,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mts-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/chm-course-synopsis/",
+      "title": "CHM COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 49,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/chm-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/csc-course-synopsis/",
+      "title": "CSC COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 26,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/csc-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/bio-course-synopsis/",
+      "title": "PAZ COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 46,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/bio-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/bch-course-synopsis/",
+      "title": "BCH COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 31,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/bch-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/mce-course-synopsis/",
+      "title": "COURSE SYNOPSIS OF MECHANICAL ENGINEERING",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 38,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/mce-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-course-synopsis/",
+      "title": "COURSE SYNOPSIS OF ELECTRICAL/ELECTRONICS ENGINEERING",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 43,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-course-synopsis/",
+      "title": "CVE COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/age-course-synopsis/",
+      "title": "ABE COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 28,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/age-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/wma-course-synopsis/",
+      "title": "WMA COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 35,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/wma-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fwm-course-synopsis/",
+      "title": "FWM COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 60,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fwm-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/emt-course-synopsis/",
+      "title": "EMT COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 23,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/emt-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aqfm-course-synopsis/",
+      "title": "AQFM COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 64,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aqfm-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/prm-course-synopsis/",
+      "title": "PRM COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 4,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/prm-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aph-course-synopsis/",
+      "title": "Animal Production & Health Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 7,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aph-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/anp-course-synopsis/",
+      "title": "Department of Animal Physiology Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 12,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/anp-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ann-course-synopsis/",
+      "title": "Animal Nutrition Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 6,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ann-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/abg-course-synopsis/",
+      "title": "Animal Breeding Genetics Course Synopsis",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 16,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/abg-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/hsm-course-synopsis/",
+      "title": "HOME SCIENCE AND MANAGEMENT COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 50,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/hsm-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/fst-course-synopsis/",
+      "title": "FOOD SCIENCE AND TECHNOLOGY COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 36,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/fst-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cgns-course-synopsis/",
+      "title": "CGNS COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 45,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cgns-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aerd-course-synopsis/",
+      "title": "AERD COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 12,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aerd-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/aefm-course-synopsis/",
+      "title": "AEFM COURSE SYNOPSIS",
+      "page_kind": "department_synopsis",
+      "status": "ok",
+      "course_count": 14,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/aefm-course-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-514-courses-synopsis/",
+      "title": "ELE 514 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-514-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-513-courses-synopsis/",
+      "title": "ELE 513 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-513-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-506-courses-synopsis/",
+      "title": "ELE 506 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-506-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-502-courses-synopsis/",
+      "title": "ELE 502 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-502-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-501-courses-synopsis/",
+      "title": "ELE 501 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-501-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-407-courses-synopsis/",
+      "title": "ELE 407 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-407-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-403-courses-synopsis/",
+      "title": "ELE 403 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-403-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-401-courses-synopsis/",
+      "title": "ELE 401 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-401-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-306-courses-synopsis/",
+      "title": "ELE 306 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-306-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-201-courses-synopsis/",
+      "title": "ELE 201 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-201-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-305-courses-synopsis/",
+      "title": "ELE 305 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-305-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-303-courses-synopsis/",
+      "title": "ELE 303 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-303-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/ele-203-courses-synopsis/",
+      "title": "ELE 203 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/ele-203-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-513-courses-synopsis/",
+      "title": "CVE 513 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-513-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-506-courses-synopsis/",
+      "title": "CVE 506 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-506-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-505-courses-synopsis/",
+      "title": "CVE 505 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-505-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-421-courses-synopsis/",
+      "title": "CVE 421 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-421-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-417-courses-synopsis/",
+      "title": "CVE 417 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-417-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-314-courses-synopsis/",
+      "title": "CVE 314 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-314-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-409-courses-synopsis/",
+      "title": "CVE 409 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-409-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-312-courses-synopsis/",
+      "title": "CVE 312 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-312-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-311-courses-synopsis/",
+      "title": "CVE 311 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-311-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-307-courses-synopsis/",
+      "title": "CVE 307 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-307-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-303-courses-synopsis/",
+      "title": "CVE 303 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-303-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-304-courses-synopsis/",
+      "title": "CVE 304 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-304-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-306-courses-synopsis/",
+      "title": "CVE 306 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-306-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-305-courses-synopsis/",
+      "title": "CVE 305 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-305-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-301-courses-synopsis/",
+      "title": "CVE 301 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-301-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-202-courses-synopsis/",
+      "title": "CVE 202 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-202-courses-synopsis.json"
+    },
+    {
+      "url": "https://funaab.edu.ng/cve-201-courses-synopsis/",
+      "title": "CVE 201 Courses Synopsis",
+      "page_kind": "course_synopsis_page",
+      "status": "ok",
+      "course_count": 1,
+      "warning": null,
+      "error": null,
+      "output": "docs/data/synopsis/cve-201-courses-synopsis.json"
+    }
+  ]
+}

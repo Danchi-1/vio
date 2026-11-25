@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/wma-316-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/wma-316-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:50.789200+00:00",
+  "page_title": "WMA 316 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "WMA",
+  "department_acronym": "WMA",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "WMA",
+      "department_acronym": "WMA",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "WMA 316 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/wma-316-course-synopsis/",
+      "course_code": "WMA 316",
+      "course_number": "316",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Agrometeorology II",
+      "title_as_written": "Agrometeorology II",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "A general survey of climate-agriculture relationships classification of agrometeorological induces. The concepts of plant environment are the relationship between climate and plants biophysical environment. Geomorphic, Edaphic and Biotic factors. Major climate attributes in plant and animal distribution. General climate aspect of pests and diseases of plants and animal. Forestry, fisheries. Water and energy budget of the plant environment. Modification of plants microclimatic environment modification of soil temperature regime, rain making, evaporation suppression and wind speed checks.",
+      "heading_text": "WMA 316",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

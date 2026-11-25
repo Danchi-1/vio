@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/anp-508-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/anp-508-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:04.693278+00:00",
+  "page_title": "ANP 508 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ANP",
+  "department_acronym": "ANP",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ANP",
+      "department_acronym": "ANP",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ANP 508 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/anp-508-course-synopsis/",
+      "course_code": "ANP 508",
+      "course_number": "508",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Controlled Breeding of Cattle Sheep and Goats",
+      "title_as_written": "Controlled Breeding of Cattle, Sheep and Goats",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Definition of Controlled Breeding (CB), Advantages of CB and Disadvantages. Principles of CB, Separation of sexes, Reproductive cycle, Oestrus synchronization, Oestrus detection, Controlled mating, Artificial insemination, Pregnancy diagnosis. Methods of increasing litter size, Flushing, Superovulation, Anti-steroid immunization, Reproductive performance, Herd and Flock structures, Herd and Flock projections, Intensive sheep and goat production, Livestock recording.",
+      "heading_text": "ANP 508",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}
