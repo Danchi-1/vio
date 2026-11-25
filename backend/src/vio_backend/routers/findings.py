@@ -21,10 +21,11 @@ from pydantic import BaseModel, Field
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from vio_backend import finding_store, student_auth
+from vio_backend import finding_store, gate, student_auth
+from vio_backend.config import Settings
 from vio_backend.database import session_dependency
 from vio_backend.errors import ApiError
-from vio_backend.routers.auth import get_current_student
+from vio_backend.routers.auth import get_current_student, get_settings
 from vio_backend.routers.reports import _CATEGORY_LABELS, _require_confirmed_session, _require_ready
 
 router = APIRouter(prefix="/api/v1/student/findings", tags=["findings"])
@@ -106,6 +107,7 @@ async def confirm_finding(
     body: ConfirmationRequest,
     record: student_auth.StudentSession = Depends(get_current_student),
     session: AsyncSession = Depends(session_dependency),
+    settings: Settings = Depends(get_settings),
 ) -> dict:
     _require_ready(record)
     window, academic_session = await _require_confirmed_session(session, record)
@@ -124,7 +126,7 @@ async def confirm_finding(
         raise ApiError(422, "validation_failed", "You cannot confirm an incident that you reported.")
     if finding["is_confirmer"]:
         raise ApiError(422, "validation_failed", "You have already confirmed this incident.")
-    if finding["status"] != "collecting":
+    if finding["status"] not in ("collecting", "held"):
         raise ApiError(422, "validation_failed", "This finding is no longer open for confirmation.")
 
     try:
@@ -137,6 +139,14 @@ async def confirm_finding(
         score_res = await finding_store.recompute_and_store_finding_score(
             session, finding_id=finding_str_id
         )
+        finding_status = await gate.evaluate_and_adjudicate(
+            session,
+            finding_str_id,
+            settings,
+            clearance_tier=score_res.clearance_tier,
+            previous_status=finding["status"],
+            previous_tier=int(finding.get("clearance_tier") or 0),
+        )
         await session.commit()
     except IntegrityError as exc:
         await session.rollback()
@@ -147,6 +157,8 @@ async def confirm_finding(
             "confirmation_id": confirmation_id,
             "finding_id": finding_str_id,
             "status": "confirmed",
+            "finding_status": finding_status,
+            "clearance_tier": score_res.clearance_tier,
             "message": "Your confirmation was recorded.",
             "total_supporters": score_res.total_supporters,
         }

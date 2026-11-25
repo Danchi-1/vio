@@ -17,7 +17,7 @@ from pydantic import BaseModel, Field
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from vio_backend import finding_store, model_panel, report_store, student_auth
+from vio_backend import finding_store, gate, model_panel, report_store, student_auth
 from vio_backend.database import session_dependency
 from vio_backend.errors import ApiError
 from vio_backend.report_rules import (
@@ -272,13 +272,24 @@ async def submit_report(
         verdict="pass",
         reasons={"extraction": extraction.raw},
     )
-    await finding_store.recompute_and_store_finding_score(session, finding_id=finding_id)
+    prev_state = await finding_store.get_finding_state(session, finding_id)
+    prev_status, prev_tier = prev_state if prev_state is not None else ("collecting", 0)
+    score_res = await finding_store.recompute_and_store_finding_score(session, finding_id=finding_id)
+    finding_status = await gate.evaluate_and_adjudicate(
+        session,
+        finding_id,
+        settings,
+        clearance_tier=score_res.clearance_tier,
+        previous_status=prev_status,
+        previous_tier=prev_tier,
+    )
     await session.commit()
 
     return {
         "data": {
             "tracking_code": tracking_code,
-            "status": "collecting",
+            "status": finding_status,
+            "clearance_tier": score_res.clearance_tier,
             "message": "Your report was received. It has not been established as a finding.",
             "timeline": [
                 {
@@ -324,23 +335,11 @@ async def list_reports(
     }
 
 
-@router.get("/reports/{tracking_code}")
-async def get_report(
-    tracking_code: str,
-    record: student_auth.StudentSession = Depends(get_current_student),
-    session: AsyncSession = Depends(session_dependency),
-) -> dict:
-    if not is_valid_tracking_code(tracking_code):
-        raise ApiError(404, "not_found", "Report not found.")
-    row = await report_store.get_student_report_by_tracking(session, record.student_id, tracking_code)
-    if row is None:
-        raise ApiError(404, "not_found", "Report not found.")
-    data = _report_json(row)
-    data["public_summary"] = row["public_summary"]
+def build_tracking_timeline(row: dict) -> list[dict]:
     timeline = [
         {
             "event": "received",
-            "occurred_at": row["created_at"].isoformat() if row["created_at"] else None,
+            "occurred_at": row["created_at"].isoformat() if row.get("created_at") else None,
             "label": "Report received",
         }
     ]
@@ -386,6 +385,21 @@ async def get_report(
             "occurred_at": None,
             "label": "Closed: insufficient evidence",
         })
+    return timeline
 
-    data["timeline"] = timeline
+
+@router.get("/reports/{tracking_code}")
+async def get_report(
+    tracking_code: str,
+    record: student_auth.StudentSession = Depends(get_current_student),
+    session: AsyncSession = Depends(session_dependency),
+) -> dict:
+    if not is_valid_tracking_code(tracking_code):
+        raise ApiError(404, "not_found", "Report not found.")
+    row = await report_store.get_student_report_by_tracking(session, record.student_id, tracking_code)
+    if row is None:
+        raise ApiError(404, "not_found", "Report not found.")
+    data = _report_json(row)
+    data["public_summary"] = row["public_summary"]
+    data["timeline"] = build_tracking_timeline(row)
     return {"data": data}

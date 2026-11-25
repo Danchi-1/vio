@@ -8,7 +8,7 @@ from sqlalchemy import text
 from vio_backend.config import Settings
 from vio_backend.database import make_engine, make_session_factory
 from vio_backend.errors import register_error_handlers
-from vio_backend.routers import auth, catalogue, dashboard, findings, reports, student
+from vio_backend.routers import auth, authority, catalogue, dashboard, findings, lecturer, reports, spec_compat, student
 
 
 @asynccontextmanager
@@ -31,7 +31,7 @@ frontend_origins = [
     origin.strip()
     for origin in os.getenv(
         "FRONTEND_ORIGINS",
-        "http://127.0.0.1:5500,http://localhost:5500",
+        "http://127.0.0.1:5500,http://localhost:5500,http://127.0.0.1:5173,http://localhost:5173",
     ).split(",")
     if origin.strip()
 ]
@@ -48,7 +48,10 @@ app.include_router(auth.router)
 app.include_router(student.router)
 app.include_router(reports.router)
 app.include_router(findings.router)
+app.include_router(lecturer.router)
+app.include_router(authority.router)
 app.include_router(dashboard.router)
+app.include_router(spec_compat.router)
 
 
 @app.get("/health/live", tags=["health"])
