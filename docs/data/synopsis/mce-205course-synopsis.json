@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-205course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-205course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:40.766681+00:00",
+  "page_title": "MCE 205 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 205 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-205course-synopsis/",
+      "course_code": "MCE 205",
+      "course_number": "205",
+      "level": 200,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Fluid Mechanics I",
+      "title_as_written": "Fluid Mechanics I",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Elements of fluid statics, density, pressure, surface tension, viscosity, compressibility etc. hydrostatic forces on submerged surfaces due to incompressible fluid. Static forces on surface stability of floating bodies. Introduction to fluid dynamics – conservation laws. Introduction to viscous flows. Fluid friction, friction factor and its relation to pipe losses; pipes in parallel and series. Fluid flow measurements, venturi meter.",
+      "heading_text": "MCE 205",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

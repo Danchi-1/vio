@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/anp-504-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/anp-504-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:07.806508+00:00",
+  "page_title": "ANP 504 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ANP",
+  "department_acronym": "ANP",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ANP",
+      "department_acronym": "ANP",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ANP 504 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/anp-504-course-synopsis/",
+      "course_code": "ANP 504",
+      "course_number": "504",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Artificial Insemination",
+      "title_as_written": "ARTIFICIAL INSEMINATION",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "PART I The Role of AI and Reproduction in Livestock Improvement 1. Advantages and Disadvantages of AI 2. Status and Development of AI 3. Basic Genetics of Cattle Breeding 4. Reproductive organs of the cow and their functions 5. Reproductive organs of the Bull and their functions",
+      "heading_text": "ANP 504",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

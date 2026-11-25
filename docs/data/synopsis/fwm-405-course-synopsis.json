@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/fwm-405-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/fwm-405-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:42.404901+00:00",
+  "page_title": "FWM 405 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "FWM",
+  "department_acronym": "FWM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "FWM",
+      "department_acronym": "FWM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "FWM 405 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/fwm-405-course-synopsis/",
+      "course_code": "FWM 405",
+      "course_number": "405",
+      "level": 400,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 1,
+      "course_title": "Agroforestry Practicals",
+      "title_as_written": "AGROFORESTRY PRACTICALS",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Practical work in the Forest nursery and Teak and Gmelina plantations",
+      "heading_text": "FWM 405",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

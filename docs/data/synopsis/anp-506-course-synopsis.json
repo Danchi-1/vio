@@ -1,0 +1,44 @@
+{
+  "source_url": "https://funaab.edu.ng/anp-506-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/anp-506-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:06.572446+00:00",
+  "page_title": "ANP 506 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ANP",
+  "department_acronym": "ANP",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ANP",
+      "department_acronym": "ANP",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ANP 506 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/anp-506-course-synopsis/",
+      "course_code": "ANP 506",
+      "course_number": "506",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": null,
+      "course_title": "Endocrinology",
+      "title_as_written": "Endocrinology",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Definition of endocrine glands and hormones. Hormonal effects, morphogenetic effects, homeostatic effects and integrative effects. Classification and functions of hormones, chemical classification, peptide and protein hormones, steroid hormones, classification based on site of production, hypothalamic hormones, hypophysial hormones, gonadal hormones, adrenal hormones, functional classification, primary hormones of repreoduction, secondary hormones of reproduction. Hormonal fuctions. Chemistry of steroid hormones, structure, trivial and systematic names, biosynthesis. Mechanisms of hormone action, steroid hormones, peptide hormones. Hormonal assays.",
+      "heading_text": "ANP 506",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page.",
+        "Units value could not be parsed; verify source."
+      ]
+    }
+  ]
+}

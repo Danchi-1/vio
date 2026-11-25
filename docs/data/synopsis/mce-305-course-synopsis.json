@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-305-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-305-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:39.084892+00:00",
+  "page_title": "MCE 305 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 305 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-305-course-synopsis/",
+      "course_code": "MCE 305",
+      "course_number": "305",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Applied Fluid Mechanics Statistics",
+      "title_as_written": "Applied Fluid Mechanics (Statistics)",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Introduction, nature and types of fluid. The fluid as a continuum. Physical properties. Scope of fluid mechanics. Units and constants. Fluid statics. Equilibrium of fluid at rest. Thrust on plane surfaces. Buoyance and thrusts on curved surfaces. Integral analysis; control volume and mass conservation, continuity equation in one-dimensional flow; incompressible flow. Basic principles, pressure at a point in a moving fluid. Bernoullis Theorem. Elementary consideration of viscous fluid. Dimensional Analysis: the Pi-theorem. Typical non-dimensional parameters. Dynamic similarity and models. Flow in pipes; entry conditions. The boundary layer concept, laminar and turbulent flows, transition, pressure losses in bends, sudden change of section, pipe fittings and valves. Diffusers, nozzles, branched pipes and flow distribution systems. Flow measurements.",
+      "heading_text": "MCE 305",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

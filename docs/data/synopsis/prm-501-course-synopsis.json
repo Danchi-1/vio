@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/prm-501-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/prm-501-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:00.140153+00:00",
+  "page_title": "PRM 501 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "PRM",
+  "department_acronym": "PRM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "PRM",
+      "department_acronym": "PRM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "PRM 501 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/prm-501-course-synopsis/",
+      "course_code": "PRM 501",
+      "course_number": "501",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Forage and Seed Production Technologies",
+      "title_as_written": "Forage and Seed production technologies",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Definitions, Major species of grasses and legumes (Botany, Classification, Management), Effects of environmental factors on forage plants, Forage legumes and their roles in tropical farming systems, Fodder bank technology (IFG), Shrub and tree legumes, Agronomic management for seed production, Seed harvesting, processing, transporting and storage.",
+      "heading_text": "PRM 501",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

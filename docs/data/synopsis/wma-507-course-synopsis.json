@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/wma-507-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/wma-507-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:44.845046+00:00",
+  "page_title": "WMA 507 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "WMA",
+  "department_acronym": "WMA",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "WMA",
+      "department_acronym": "WMA",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "WMA 507 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/wma-507-course-synopsis/",
+      "course_code": "WMA 507",
+      "course_number": "507",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Agrometeorology IV",
+      "title_as_written": "Agrometeorology IV",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Quantitative characterization of plants climatic environment. Statistical concept in plant climate relationship. Assessment of moisture and thermal Agro-meteorological indices for agriculture: predicting the onset, cessation and duration of the rains, rainfall variability, rainfall seasonality and precipitation effectiveness. Climatological assessment of water resources and soil loss. The concept of potential Evapo-transpiration, crop moisture requirements and irrigation need: methods of improving water use efficiency. Concept of photosynthetic active radiation (PAR) and efficiency of energy conversion. Measurement of photosynthesis in the field, Quantification of crop yield-climate relationships under different management inputs; Pearson product moment correlation, simple linear regression analysis, principle component and factors analysis. Elementary stochastic models.",
+      "heading_text": "WMA 507",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

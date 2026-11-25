@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/frm-509-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/frm-509-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:39.987055+00:00",
+  "page_title": "FRM 509 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "FRM",
+  "department_acronym": "FRM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "FRM",
+      "department_acronym": "FRM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "FRM 509 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/frm-509-course-synopsis/",
+      "course_code": "FRM 509",
+      "course_number": "509",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Forest Soils",
+      "title_as_written": "FOREST SOILS",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Understanding of soil dynamics and influence upon forest composition stand regeneration, tree vigour and tree growth rate, forest soil physics, chemistry and microbiology, soil moisture movement, forest nursery soil management, forest soil fertility determination, maintenance and improvement with special reference to tropical conditions.",
+      "heading_text": "FRM509",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

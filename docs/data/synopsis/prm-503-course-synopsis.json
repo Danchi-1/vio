@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/prm-503-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/prm-503-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:56.269588+00:00",
+  "page_title": "PRM 503 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "PRM",
+  "department_acronym": "PRM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "PRM",
+      "department_acronym": "PRM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "PRM 503 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/prm-503-course-synopsis/",
+      "course_code": "PRM 503",
+      "course_number": "503",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Techniques in Pasture Management",
+      "title_as_written": "Techniques in pasture management",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Review of some common terms in pasture/forage science (forage, fodder, feed etc). Pasture types, their attributes and characteristics, their importance and roles in animal production in Nigeria, sole/single species pasture grass/legume pasture, role of legumes, factor affecting legume content. Pasture establishment: factor to consider in the selection, land preparation (slashing, clearing, ploughing and harrowing, planting/sowing), sourcing of planting materials, methods of planting/sowing for different species and pasture types. Post-planting/sowing management: fertilizer application/manuring, fertilizer types and effects on dry matter yield and botanical composition, weed control, re-sowing/planting cutting back, pasture consolidation. Grazing management: Definition and objective, when to graze a newly established pasture and proper grazing methods (continuous grazing, rotational grazing, leader-follower, strip grazing, zero-grazing season, ungrazed, deferred grazing, rest period, grazing pressure, carrying capacity, animal days, animal unit), grazing effects on growth and productivity. Pasture utilization: Definition and estimation on grazed pasture, factors affecting utilization. Pasture defoliation and defoliation techniques, components of defoliation (frequency, intensity and timing) and effects on productivity, botanical composition, methods of estimation and important. Pests and diseases; their effects on dry matter productivity, pasture quality, seed and yield and quality, evaluation and control.",
+      "heading_text": "PRM 503",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

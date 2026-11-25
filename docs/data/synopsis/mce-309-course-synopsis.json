@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-309-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-309-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:38.455805+00:00",
+  "page_title": "MCE 309 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 309 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-309-course-synopsis/",
+      "course_code": "MCE 309",
+      "course_number": "309",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Strength of Materials",
+      "title_as_written": "Strength of Materials",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Consideration of equilibrium, composite members, stress-strain relation. Generalized Hooke’s law. Stress and strain transformation equations and Mohr’s circle. Shear force and bending stresses in beams. Torsion of circular members. Deflection of beams, revision of methods of solution; shear stress distribution and deflection due to shear center. Unsymmetrical bending. Strain energy methods; application to thin members and indeterminate structures. Helical and leaf springs. Plastic bending of beams, buckling. Thick cylinders; compound cylinders. Rotating disks.",
+      "heading_text": "MCE 309",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

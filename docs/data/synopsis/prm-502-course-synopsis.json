@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/prm-502-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/prm-502-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:57.094036+00:00",
+  "page_title": "PRM 502 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "PRM",
+  "department_acronym": "PRM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "PRM",
+      "department_acronym": "PRM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "PRM 502 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/prm-502-course-synopsis/",
+      "course_code": "PRM 502",
+      "course_number": "502",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Forage Quality and Conservation",
+      "title_as_written": "Forage quality and conservation",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Grasses as feed for ruminants, growth pattern, plant parts of grasses and effects on quality. Definition of nutritive values of feed. Chemical composition of forages (proteins, minerals, structural constituents, vitamins, anti-quality and toxic substances) their availability to animals and factors affecting them. Palatability and acceptability of forages (with examples) and factors affecting them. Intake and voluntary intake of tropical forages and factors affecting them. Digestibility. Factors affecting digestibility of tropical forages. Anti-nutritional factors in forages and their effects on animals. Mineral imbalance in forages and corrective measures. Different methods of forage conservation: hay, silage, haylage, use of crop residues in animal feeding etc. Storing and feeding conserved feeds. Feeding value of conserved forages. Health hazards associated with conserved forage.",
+      "heading_text": "PRM 502",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

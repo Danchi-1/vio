@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/ele-506-courses-synopsis/",
+  "final_url": "https://funaab.edu.ng/ele-506-courses-synopsis/",
+  "fetched_at": "2026-11-15T23:40:10.410069+00:00",
+  "page_title": "ELE 506 Courses Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ELE",
+  "department_acronym": "ELE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ELE",
+      "department_acronym": "ELE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ELE 506 Courses Synopsis",
+      "source_url": "https://funaab.edu.ng/ele-506-courses-synopsis/",
+      "course_code": "ELE 506",
+      "course_number": "506",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Electrical Service Design and Energy Utilization",
+      "title_as_written": "Electrical Service Design and Energy Utilization",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Design and organization of power supply: rated voltages and frequency. Types of power consumers and their characteristics. Lighting systems and installation: Lighting control circuits. Electrical heating: heating of buildings, electrical furnaces, electrical welding, air conditioning and refrigeration. Electro-chemical processes. Motor control for industrial system: General and special factory drives. Regulations on installation and operation of electrical equipment.Metering and tariff systems.",
+      "heading_text": "ELE 506",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

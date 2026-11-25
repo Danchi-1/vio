@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/hsm-411-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/hsm-411-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:22.730047+00:00",
+  "page_title": "HSM 411 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "HSM",
+  "department_acronym": "HSM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "HSM",
+      "department_acronym": "HSM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "HSM 411 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/hsm-411-course-synopsis/",
+      "course_code": "HSM 411",
+      "course_number": "411",
+      "level": 400,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Clothing Construction",
+      "title_as_written": "Clothing Construction",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "The body contour, art of fitting. Fitting techniques, importance of grain line in fitting. Figure problems. Methods of alteration on sewn garments. Tailoring techniques on special fabrics. Lining a garment.",
+      "heading_text": "HSM 411",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

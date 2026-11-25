@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/anp-102-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/anp-102-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:34.891519+00:00",
+  "page_title": "ANP 102 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ANP",
+  "department_acronym": "ANP",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ANP",
+      "department_acronym": "ANP",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ANP 102 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/anp-102-course-synopsis/",
+      "course_code": "ANP 102",
+      "course_number": "102",
+      "level": 100,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Introductory Animal Physiology II",
+      "title_as_written": "Introductory Animal Physiology II",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Types of Circulatory Systems Living things must be capable of transporting nutrients, wastes and gases to and from cells. Single-celled organisms use their cell surface as a point of exchange with the outside environment. Multicellular organisms have developed transport and circulatory systems to deliver oxygen and food to cells and remove carbon dioxide and metabolic wastes. Sponges are the simplest animals, yet even they have a transport system. Seawater is the medium of transport and is propelled in and out of the sponge by ciliary action. Simple animals, such as the hydra and planaria (shown in Figure 1), lack specialized organs such as hearts and blood vessels, instead using their skin as an exchange point for materials. This, however, limits the size an animal can attain. To become larger, they need specialized organs and organ systems.",
+      "heading_text": "ANP 102",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

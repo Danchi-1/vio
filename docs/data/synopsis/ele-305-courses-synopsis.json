@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/ele-305-courses-synopsis/",
+  "final_url": "https://funaab.edu.ng/ele-305-courses-synopsis/",
+  "fetched_at": "2026-11-15T23:40:14.724443+00:00",
+  "page_title": "ELE 305 Courses Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ELE",
+  "department_acronym": "ELE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ELE",
+      "department_acronym": "ELE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ELE 305 Courses Synopsis",
+      "source_url": "https://funaab.edu.ng/ele-305-courses-synopsis/",
+      "course_code": "ELE 305",
+      "course_number": "305",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Electrical Machines I",
+      "title_as_written": "Electrical Machines I",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Coupled circuits, air cored transformers, equivalent circuits. Iron cored transformers, equivalent circuits. Referred impedance, no-load test, short-circuits test and efficiency of single phase transformers. Three phase transformers. Group connection of windings, auto transformers.Instrument transformers.",
+      "heading_text": "ELE 305",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

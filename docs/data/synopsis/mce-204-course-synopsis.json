@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-204-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-204-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:42.220723+00:00",
+  "page_title": "MCE 204 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 204 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-204-course-synopsis/",
+      "course_code": "MCE 204",
+      "course_number": "204",
+      "level": 200,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Engineering Thermodynamics",
+      "title_as_written": "Engineering Thermodynamics",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Definition of terms and general concept of systems, surrounding, process, temperature, heat work and energy. First law of thermodynamics and application to open systems. Second law of thermodynamics and application to heat engines. Entropy. First and second laws combined. Perfect gases. Joule-Thompson coefficient. Equilibrium processes. Maxwell’s relations. Two phase system. Thermodynamic functions of solution. P.V.T – relationship. Work from heat energy. Refrigeration.",
+      "heading_text": "MCE 204",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

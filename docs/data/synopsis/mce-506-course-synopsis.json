@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-506-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-506-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:32.859365+00:00",
+  "page_title": "MCE 506 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 506 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-506-course-synopsis/",
+      "course_code": "MCE 506",
+      "course_number": "506",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Fluid Machinery",
+      "title_as_written": "Fluid Machinery",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Types of fluid machines, classifications. Positive displacement machines:Reciprocating and rotary pumps. Compressors. Hydraulic motors. Rotodynamic machines: Basic theory, performance. Axial-flow, centrifugal and mixed-flow pumps, fans, compressors and turbines, selection of appropriate fluid machines.",
+      "heading_text": "MCE 506",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

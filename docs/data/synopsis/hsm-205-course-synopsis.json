@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/hsm-205-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/hsm-205-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:40.966601+00:00",
+  "page_title": "HSM 205 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "HSM",
+  "department_acronym": "HSM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "HSM",
+      "department_acronym": "HSM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "HSM 205 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/hsm-205-course-synopsis/",
+      "course_code": "HSM 205",
+      "course_number": "205",
+      "level": 200,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Principles of Housing",
+      "title_as_written": "Principles of Housing",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "The housing needs of families. Economic, social and psychological factors involved in renting and buying a house. Housing standards; Principles design, and layout of different types. Rural housing and community development. Planning and design criteria for rural housing. Local materials for rural housing. Public participation in housing development. A study of the housing policies of Federal and State Governments of Nigeria. Various methods of financing house investment in the public, private and cooperative sectors.",
+      "heading_text": "HSM 205",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

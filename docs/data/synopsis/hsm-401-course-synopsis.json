@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/hsm-401-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/hsm-401-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:26.563166+00:00",
+  "page_title": "HSM 401 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "HSM",
+  "department_acronym": "HSM",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "HSM",
+      "department_acronym": "HSM",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "HSM 401 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/hsm-401-course-synopsis/",
+      "course_code": "HSM 401",
+      "course_number": "401",
+      "level": 400,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Family in Cross Cultural Perspective",
+      "title_as_written": "Family in Cross Cultural Perspective",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "An examination of patterns of family interaction on the international and intra-national levels. Special emphasis will be given to the processes of child rearing and socialization, particularly, as they relate to the larger culture. Attempts to quantify and qualify current patterns of child rearing within Nigeria will be emphasized through field work organisation and development of multi-functional space within living environment. Exploration of interior living environment, contemporary and traditional residential areas in an ecological bahaviour and culture context.",
+      "heading_text": "HSM 401",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

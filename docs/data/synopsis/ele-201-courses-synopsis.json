@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/ele-201-courses-synopsis/",
+  "final_url": "https://funaab.edu.ng/ele-201-courses-synopsis/",
+  "fetched_at": "2026-11-15T23:40:15.145792+00:00",
+  "page_title": "ELE 201 Courses Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "ELE",
+  "department_acronym": "ELE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "ELE",
+      "department_acronym": "ELE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "ELE 201 Courses Synopsis",
+      "source_url": "https://funaab.edu.ng/ele-201-courses-synopsis/",
+      "course_code": "ELE 201",
+      "course_number": "201",
+      "level": 200,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 2,
+      "course_title": "Applied Electricity I",
+      "title_as_written": "Applied Electricity I",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Foundation of electric circuit theory; circuit elements, resistor capacitor and inductors. Kirchoff’sl aws.Network theorem; Thevenin, Norton, superposition theorems.Transient response in RC, RL and RLC circuits. Elementary discussion of semiconductors: pn junction diode, npn and pnp transistors. Full wave and half wave rectification in circuits and smoothing circuits. Electric lamp and illumination.Introduction to electrostatics and capacitance.",
+      "heading_text": "ELE 201",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/mce-303-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/mce-303-course-synopsis/",
+  "fetched_at": "2026-11-15T23:38:40.209848+00:00",
+  "page_title": "MCE 303 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "MCE",
+  "department_acronym": "MCE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "MCE",
+      "department_acronym": "MCE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "MCE 303 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/mce-303-course-synopsis/",
+      "course_code": "MCE 303",
+      "course_number": "303",
+      "level": 300,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 1,
+      "course_title": "Mechanics of Machines I",
+      "title_as_written": "Mechanics of Machines I",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Elementary study of machine kinematics and dynamics. Velocity and acceleration diagrams of link mechanisms. Flywheels. Balancing of reciprocating and rotating masses. Gears and gear trains. Governors. Cams and Followers. Gyroscopes.",
+      "heading_text": "MCE 303",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}

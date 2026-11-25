@@ -1,0 +1,43 @@
+{
+  "source_url": "https://funaab.edu.ng/age-507-course-synopsis/",
+  "final_url": "https://funaab.edu.ng/age-507-course-synopsis/",
+  "fetched_at": "2026-11-15T23:39:38.448516+00:00",
+  "page_title": "AGE 507 Course Synopsis",
+  "page_kind": "course_synopsis_page",
+  "parse_mode": "structured_fields",
+  "institution": "FUNAAB",
+  "department": "AGE",
+  "department_acronym": "AGE",
+  "course_count": 1,
+  "courses": [
+    {
+      "institution": "FUNAAB",
+      "department": "AGE",
+      "department_acronym": "AGE",
+      "source_kind": "course_synopsis_page",
+      "source_page_title": "AGE 507 Course Synopsis",
+      "source_url": "https://funaab.edu.ng/age-507-course-synopsis/",
+      "course_code": "AGE 507",
+      "course_number": "507",
+      "level": 500,
+      "level_source": "course_code",
+      "semester": null,
+      "semester_source": "not_stated",
+      "units": 3,
+      "course_title": "Farm Structures and Environmental Control",
+      "title_as_written": "Farm Structures and Environmental Control",
+      "prerequisites": null,
+      "prerequisites_text": null,
+      "synopsis": "Farmstead planning and layout. Integrated study of farm housing – family housing, livestock housing, farm products and food storage structures. Environmental control and structural requirements of crops and livestock. Design of structural members of wood, steel, plain and reinforced concrete and local materials. Design of farm structures, columns, beams nailed and local bolted connections of timbers.",
+      "heading_text": "AGE 507",
+      "section": null,
+      "source_status": "official_public_date_unknown",
+      "notes": [
+        "Official FUNAAB public course synopsis page; page version date unknown; verify currentness.",
+        "Source kind: individual_course_synopsis_page.",
+        "Level derived from course number; individual course page has no level/semester heading.",
+        "Semester not stated on page."
+      ]
+    }
+  ]
+}
