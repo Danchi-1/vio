@@ -4,6 +4,7 @@ import './styles/landing.css';
 import './styles/tokens.css';
 import './styles/base.css';
 import './styles/dashboard.css';
+import './styles/secure.css';
 import './styles/extras.css';
 import './styles/pages.css';
 import App from './App.jsx';

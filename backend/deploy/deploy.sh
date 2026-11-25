@@ -9,8 +9,8 @@ git pull --ff-only
 
 .venv/bin/pip install -e ./backend
 
-npm --prefix frontend/frontend install --no-audit --no-fund
-npm --prefix frontend/frontend run build
+npm --prefix frontend install --no-audit --no-fund
+npm --prefix frontend run build
 
 sudo systemctl restart vio-api
 sudo systemctl reload nginx

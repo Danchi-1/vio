@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage.jsx';
 import NotFoundPage from './pages/NotFoundPage.jsx';
 import SetupPage from './pages/SetupPage.jsx';
 import SignInPage from './pages/SignInPage.jsx';
+import SignUpPage from './pages/auth/SignUpPage.jsx';
 import {
   FindingDetailPage,
   FindingsListPage,
@@ -25,6 +26,7 @@ import {
 } from './pages/SecurePages.jsx';
 
 const router = createBrowserRouter([
+  { path: '/sign-up', element: <SignUpPage /> },
   {
     element: <PublicShell />,
     children: [
