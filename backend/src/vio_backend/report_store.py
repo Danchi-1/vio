@@ -297,7 +297,7 @@ async def get_student_report_by_tracking(
             SELECT r.id, r.tracking_code, r.description, r.notice_given, r.created_at,
                    f.id AS finding_id, f.status AS finding_status, f.category,
                    f.public_summary, f.clearance_tier,
-                   c.code AS course_code, c.title AS course_title,
+                   c.code AS course_code, c.title AS course_title, c.level AS course_level,
                    d.name AS department, f.incident_date
             FROM reports r
             JOIN findings f ON f.id = r.finding_id

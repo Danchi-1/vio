@@ -6,7 +6,7 @@ from uuid import uuid4
 import pytest
 from fastapi.testclient import TestClient
 
-from vio_backend import gate
+from vio_backend import gate, report_store
 from vio_backend.config import Settings
 from vio_backend.database import session_dependency
 from vio_backend.email_delivery import ConsoleEmailSender, NullEmailSender, build_email_sender
@@ -256,3 +256,36 @@ def test_spec_public_track_report_hides_identity_and_returns_timeline():
         assert "description" not in body
     finally:
         app.dependency_overrides.pop(session_dependency, None)
+
+
+@pytest.mark.asyncio
+async def test_get_student_report_by_tracking_includes_course_level_for_report_json():
+    from vio_backend.routers.reports import _report_json
+
+    mock_session = AsyncMock()
+    mock_res = MagicMock()
+    mock_res.first.return_value._mapping = {
+        "id": "r1",
+        "tracking_code": "VIO-ABCD2345",
+        "description": "Lecture did not hold.",
+        "notice_given": False,
+        "created_at": datetime(2026, 10, 12, 9, 0, tzinfo=timezone.utc),
+        "finding_id": "f1",
+        "finding_status": "collecting",
+        "category": "class_not_held",
+        "public_summary": None,
+        "clearance_tier": 0,
+        "course_code": "CSC 201",
+        "course_title": "Computer Programming I",
+        "course_level": 200,
+        "department": "Computer Science",
+        "incident_date": date(2026, 10, 12),
+    }
+    mock_session.execute.return_value = mock_res
+
+    row = await report_store.get_student_report_by_tracking(mock_session, "stu-1", "VIO-ABCD2345")
+    assert row is not None
+    sql = str(mock_session.execute.call_args[0][0])
+    assert "c.level AS course_level" in sql
+    formatted = _report_json(row)
+    assert formatted["course_level"] == 200

@@ -309,7 +309,7 @@ def _report_json(row: dict) -> dict:
         "category": row["category"],
         "course_code": row["course_code"],
         "course_title": row["course_title"],
-        "course_level": row["course_level"],
+        "course_level": row.get("course_level"),
         "department": row["department"],
         "incident_date": row["incident_date"].isoformat() if row["incident_date"] else None,
         "finding_status": row["finding_status"],
