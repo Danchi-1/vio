@@ -65,6 +65,9 @@ class Settings:
     cookie_secure: bool = True
     cookie_samesite: str = "strict"
     email_mode: str = "smtp"
+    # Hackathon-only: when true, OTP code "000000" bypasses verification.
+    # Never enable outside demos.
+    dev_otp_bypass: bool = False
 
     @classmethod
     def from_environment(cls) -> "Settings":
@@ -100,4 +103,5 @@ class Settings:
             cookie_secure=_bool_env("COOKIE_SECURE", True),
             cookie_samesite=os.getenv("COOKIE_SAMESITE", "strict").strip().lower() or "strict",
             email_mode=os.getenv("EMAIL_MODE", "smtp").strip().lower() or "smtp",
+            dev_otp_bypass=_bool_env("DEV_OTP_BYPASS", False),
         )

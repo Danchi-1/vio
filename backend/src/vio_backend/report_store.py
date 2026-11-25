@@ -312,6 +312,29 @@ async def get_student_report_by_tracking(
     return dict(row._mapping) if row else None
 
 
+async def get_public_report_by_tracking(session: AsyncSession, tracking_code: str) -> dict | None:
+    """Public tracking lookup returning non-identifying finding status only."""
+    result = await session.execute(
+        text(
+            """
+            SELECT r.tracking_code, r.created_at,
+                   f.status AS finding_status, f.category,
+                   f.public_summary, f.clearance_tier,
+                   c.code AS course_code, c.title AS course_title,
+                   d.name AS department, f.incident_date
+            FROM reports r
+            JOIN findings f ON f.id = r.finding_id
+            JOIN courses c ON c.id = f.course_id
+            JOIN departments d ON d.id = c.department_id
+            WHERE r.tracking_code = :tracking_code
+            """
+        ),
+        {"tracking_code": tracking_code},
+    )
+    row = result.first()
+    return dict(row._mapping) if row else None
+
+
 async def list_registered_courses(session: AsyncSession, student_id: str, academic_session: str) -> list[dict]:
     result = await session.execute(
         text(

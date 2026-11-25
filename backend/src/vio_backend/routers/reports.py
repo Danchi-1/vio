@@ -335,23 +335,11 @@ async def list_reports(
     }
 
 
-@router.get("/reports/{tracking_code}")
-async def get_report(
-    tracking_code: str,
-    record: student_auth.StudentSession = Depends(get_current_student),
-    session: AsyncSession = Depends(session_dependency),
-) -> dict:
-    if not is_valid_tracking_code(tracking_code):
-        raise ApiError(404, "not_found", "Report not found.")
-    row = await report_store.get_student_report_by_tracking(session, record.student_id, tracking_code)
-    if row is None:
-        raise ApiError(404, "not_found", "Report not found.")
-    data = _report_json(row)
-    data["public_summary"] = row["public_summary"]
+def build_tracking_timeline(row: dict) -> list[dict]:
     timeline = [
         {
             "event": "received",
-            "occurred_at": row["created_at"].isoformat() if row["created_at"] else None,
+            "occurred_at": row["created_at"].isoformat() if row.get("created_at") else None,
             "label": "Report received",
         }
     ]
@@ -397,6 +385,21 @@ async def get_report(
             "occurred_at": None,
             "label": "Closed: insufficient evidence",
         })
+    return timeline
 
-    data["timeline"] = timeline
+
+@router.get("/reports/{tracking_code}")
+async def get_report(
+    tracking_code: str,
+    record: student_auth.StudentSession = Depends(get_current_student),
+    session: AsyncSession = Depends(session_dependency),
+) -> dict:
+    if not is_valid_tracking_code(tracking_code):
+        raise ApiError(404, "not_found", "Report not found.")
+    row = await report_store.get_student_report_by_tracking(session, record.student_id, tracking_code)
+    if row is None:
+        raise ApiError(404, "not_found", "Report not found.")
+    data = _report_json(row)
+    data["public_summary"] = row["public_summary"]
+    data["timeline"] = build_tracking_timeline(row)
     return {"data": data}

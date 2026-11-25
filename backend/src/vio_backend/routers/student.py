@@ -112,7 +112,7 @@ async def get_courses(
 
 
 class CourseRegistrationRequest(BaseModel):
-    academic_session: str
+    academic_session: str | None = None
     course_ids: list[UUID] = Field(default_factory=list)
 
 
@@ -127,7 +127,10 @@ async def replace_courses(
     current = await student_auth.get_latest_academic_session(session, record.university_id)
     if current is None:
         raise ApiError(503, "service_unavailable", "The academic session calendar is not available yet.")
-    if body.academic_session != current.session or record.confirmed_session != current.session:
+    target_session = body.academic_session or current.session
+    if target_session != current.session or (
+        body.academic_session is not None and record.confirmed_session != current.session
+    ):
         raise ApiError(
             422,
             "validation_failed",

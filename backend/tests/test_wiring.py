@@ -1,12 +1,17 @@
 from dataclasses import dataclass
+from datetime import date, datetime, timezone
 from unittest.mock import AsyncMock, MagicMock, patch
+from uuid import uuid4
 
 import pytest
+from fastapi.testclient import TestClient
 
 from vio_backend import gate
 from vio_backend.config import Settings
+from vio_backend.database import session_dependency
 from vio_backend.email_delivery import ConsoleEmailSender, NullEmailSender, build_email_sender
 from vio_backend.gate import GateDecision
+from vio_backend.main import app
 from vio_backend.model_panel import PanelUnavailable, Vote
 
 
@@ -176,3 +181,78 @@ class _EmailSettings:
 def test_email_mode_console_opt_in_only():
     assert isinstance(build_email_sender(_EmailSettings(email_mode="smtp")), NullEmailSender)
     assert isinstance(build_email_sender(_EmailSettings(email_mode="console")), ConsoleEmailSender)
+
+
+def test_spec_dashboard_overview_matches_frontend_contract():
+    dept_id = uuid4()
+    mock_session = AsyncMock()
+    mock_res = MagicMock()
+    mock_res.mappings.return_value.all.return_value = [
+        {
+            "department_id": dept_id,
+            "department": "Computer Science",
+            "category": "class_not_held",
+            "month": date(2026, 10, 1),
+            "findings": 4,
+        }
+    ]
+    mock_session.execute.return_value = mock_res
+
+    async def override_session():
+        yield mock_session
+
+    app.dependency_overrides[session_dependency] = override_session
+    try:
+        with TestClient(app) as client:
+            res = client.get("/api/v1/dashboard/overview?month=2026-10")
+        assert res.status_code == 200
+        assert res.json() == {
+            "data": {
+                "rows": [
+                    {
+                        "department_id": str(dept_id),
+                        "department_name": "Computer Science",
+                        "month": "2026-10",
+                        "category": "class_not_held",
+                        "count": 4,
+                    }
+                ]
+            }
+        }
+    finally:
+        app.dependency_overrides.pop(session_dependency, None)
+
+
+def test_spec_public_track_report_hides_identity_and_returns_timeline():
+    mock_session = AsyncMock()
+    mock_res = MagicMock()
+    mock_res.first.return_value._mapping = {
+        "tracking_code": "VIO-ABCD2345",
+        "created_at": datetime(2026, 10, 12, 9, 0, tzinfo=timezone.utc),
+        "finding_status": "published",
+        "category": "class_not_held",
+        "public_summary": "Students reported an unannounced cancellation.",
+        "clearance_tier": 1,
+        "course_code": "CSC 201",
+        "course_title": "Computer Programming I",
+        "department": "Computer Science",
+        "incident_date": date(2026, 10, 12),
+    }
+    mock_session.execute.return_value = mock_res
+
+    async def override_session():
+        yield mock_session
+
+    app.dependency_overrides[session_dependency] = override_session
+    try:
+        with TestClient(app) as client:
+            res = client.get("/api/v1/reports/track/VIO-ABCD2345")
+        assert res.status_code == 200
+        body = res.json()["data"]
+        assert body["tracking_code"] == "VIO-ABCD2345"
+        assert body["finding_status"] == "published"
+        assert len(body["timeline"]) == 3
+        assert "reporter_id" not in body
+        assert "description" not in body
+    finally:
+        app.dependency_overrides.pop(session_dependency, None)
